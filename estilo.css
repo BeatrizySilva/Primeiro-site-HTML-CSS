@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to bottom, #3db8ff 0%, #dadaff 100%);
+    min-height: 100vh;
+    color: #333; 
+}
+
+/* Efeito no Logo */
+.logo-link img {
+  transition: transform 0.3s ease;
+}
+
+.logo-link:hover img {
+  transform: scale(1.08); /* Aumenta levemente ao passar o mouse */
+}
+
+/* Estilização personalizada para os botões do menu */
+.nav-pills .nav-link {
+  color: #431d9c;
+  font-weight: 600;
+  border-radius: 50rem; /* Deixa as pílulas bem arredondadas */
+  padding: 8px 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse por cima dos links inativos */
+.nav-pills .nav-link:hover {
+  color: #fffffe; /* Amarelo clássico Pokémon */
+  background-color: #3b4cca; /* Azul clássico Pokémon */
+  transform: translateY(-2px); /* Efeito de leve elevação */
+}
+
+/* Botão ativo (página atual) */
+.nav-pills .nav-link.active {
+  background-color: #ffcb05 !important;
+  color: #2a50a1 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-pills {
+  gap: 10px; /* Cria um espaço automático de 10px entre todos os botões */
+}
+
+.RESUMO{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.RESUMO h1 {
+  color: #2a50a1;             /* Azul escuro Pokémon para combinar com o menu */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;          /* Deixa o título maior e mais imponente */
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.RESUMO p {
+  font-family: system-ui, -apple-system, sans-serif; /* Troca o monospace por uma fonte mais limpa e legível */
+  font-size: 1.1rem;
+  color: #4a4a4a;             /* Um cinza escuro confortável para leitura */
+  line-height: 1.6;           /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+}
+
+.RESUMO h2 {
+  color: #2a50a1;             /* Azul escuro Pokémon para combinar com o menu */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;          /* Deixa o título maior e mais imponente */
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.RESUMO h3{
+  color: #2a50a1;            
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;          
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Garante que todas as imagens das regiões tenham um padrão visual bonito */
+.RESUMO img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+}
